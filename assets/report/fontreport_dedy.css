@@ -1,0 +1,7 @@
+@font-face {
+	font-family: "Roboto" !important;
+	font-style: normal;
+	font-weight: 300;
+	src: local('Roboto'),local('Roboto-Regular'), url(fonts/dedy_roboto/Roboto-Regular) format('ttf'),url(fonts/dedy_roboto/Roboto-Regular.ttf) format('truetype')
+}
+

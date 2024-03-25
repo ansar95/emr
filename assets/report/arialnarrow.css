@@ -1,0 +1,14 @@
+@font-face {
+	font-family: "Arial Narrow" !important;
+	font-style: normal;
+	font-weight: 400;
+	src: local('Arial Narrow'),local('ArialNarrow-Regular'), url(fonts/arial-narrow_d0eb64ed2b91fe9a67f7800c1b14868b.woff) format('woff'),url(fonts/arial-narrow_d0eb64ed2b91fe9a67f7800c1b14868b.ttf) format('truetype')
+}
+
+@font-face {
+	/*font-family: arial narrow bold;*/
+	font-family: "Arial Narrow Bold" !important;
+	font-style: normal;
+	font-weight: 700;
+	src: local('Arial Narrow Bold'),local('ArialNarrow-Bold'),url(fonts/arial-narrow-bold_de76819016c676e170294c3f132497dc.woff) format('woff'),url(fonts/arial-narrow-bold_de76819016c676e170294c3f132497dc.ttf) format('truetype')
+}

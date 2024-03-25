@@ -1,0 +1,137 @@
+{
+    "resourceType": "Patient",
+    "meta": {
+       "profile": [
+          "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+       ]
+    },
+    "identifier": [
+       {
+          "use": "official",
+          "system": "https://fhir.kemkes.go.id/id/nik",
+          "value": "7371052501700001"
+       },
+       {
+          "use": "official",
+          "system": "https://fhir.kemkes.go.id/id/paspor",
+          "value": "A01111222"
+       },
+       {
+          "use": "official",
+          "system": "https://fhir.kemkes.go.id/id/kk",
+          "value": "7371121003160003"
+       }
+    ],
+    "active": true,
+    "name": [
+       {
+          "use": "official",
+          "text": "Abdullah Djamaluddin"
+       }
+    ],
+    "telecom": [
+       {
+          "system": "phone",
+          "value": "08114449395",
+          "use": "mobile"
+       }
+    ],
+    "gender": "male",
+    "birthDate": "1970-01-25",
+    "deceasedBoolean": false,
+    "address": [
+       {
+          "use": "home",
+          "line": [
+             "Green Villa Garden Blok A3/5 "
+          ],
+          "city": "Makassar",
+          "postalCode": "90233",
+          "country": "ID",
+          "extension": [
+             {
+                "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/administrativeCode",
+                "extension": [
+                   {
+                      "url": "province",
+                      "valueCode": "73"
+                   },
+                   {
+                      "url": "city",
+                      "valueCode": "7371"
+                   },
+                   {
+                      "url": "district",
+                      "valueCode": "737105"
+                   },
+                   {
+                      "url": "village",
+                      "valueCode": "73710511"
+                   },
+                   {
+                      "url": "rt",
+                      "valueCode": "11"
+                   },
+                   {
+                      "url": "rw",
+                      "valueCode": "1"
+                   }
+                ]
+             }
+          ]
+       }
+    ],
+    "maritalStatus": {
+       "coding": [
+          {
+             "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+             "code": "M",
+             "display": "Married"
+          }
+       ],
+       "text": "Married"
+    },
+    "multipleBirthInteger": 0,
+    "contact": [
+       {
+          "relationship": [
+             {
+                "coding": [
+                   {
+                      "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                      "code": "C"
+                   }
+                ]
+             }
+          ]
+       }
+    ],
+    "communication": [
+       {
+          "language": {
+             "coding": [
+                {
+                   "system": "urn:ietf:bcp:47",
+                   "code": "id-ID",
+                   "display": "Indonesian"
+                }
+             ],
+             "text": "Indonesian"
+          },
+          "preferred": true
+       }
+    ],
+    "extension": [
+       {
+          "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/birthPlace",
+          "valueAddress": {
+             "city": "Samarinda",
+             "country": "ID"
+          }
+       },
+       {
+          "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/citizenshipStatus",
+          "valueCode": "WNI"
+       }
+    ]
+ }
